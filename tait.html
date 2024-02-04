@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        height: 3600px;
+        
+    }
+    header{
+    
+        background-color: aqua;
+        color:black;
+        height: 12vh;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        height: 3vh;
+        background-color: black;
+        color: white;
+    }
+ul{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+ul li{
+    margin-right: 30px;
+    list-style: none;
+}
+@media screen  and (max-width:800px) {
+    header{
+        background-color: rebeccapurple;
+    }
+    }
+    @media screen  and (max-width:600px) {
+    header{
+        background-color: red;
+    }
+    }
+
+</style>
+<body>
+    <div class="container">
+    <header>
+        <nav>
+
+            <ul>
+                <li>Home</li>
+                <li> Contact</li>
+                <li>About us</li>
+            </ul>
+        </nav>
+        </header>
+    </div>
+        <footer>
+            Copy Right &copy; Website
+        </footer>
+</body>
+</html>
